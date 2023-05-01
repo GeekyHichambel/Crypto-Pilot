@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/SCREEN"
+    tools:context=".Bal">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="0.00 $"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:background="@drawable/custom_button_3"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+</FrameLayout>

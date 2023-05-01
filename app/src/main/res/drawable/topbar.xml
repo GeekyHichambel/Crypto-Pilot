@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--Shape for stroke -->
+    <item>
+        <shape android:shape="rectangle">
+                <corners android:bottomLeftRadius="20dp"
+                    android:bottomRightRadius="20dp"/>
+                <stroke android:color="@color/fadedwhite" android:width="1dp" android:useLevel="false"/>
+        </shape>
+    </item>
+
+</selector>

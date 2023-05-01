@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "884501449713",
+    "firebase_url": "https://crypto-pilot-edd8f-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "crypto-pilot-edd8f",
+    "storage_bucket": "crypto-pilot-edd8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884501449713:android:91ee43f46ca156adb1d250",
+        "android_client_info": {
+          "package_name": "com.example.cryptopilot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884501449713-s03p44cqhbbedmsnjasdquag07bs5l13.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cryptopilot",
+            "certificate_hash": "e99b3aa06655fa45f1b6fc57c4e9d429a15ea715"
+          }
+        },
+        {
+          "client_id": "884501449713-5p1gtgjarpc4kpqajrbfqdoi1hv0b75g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5GABrAT55GBZ8SFw9SW_OWtZkW8keD6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884501449713-5p1gtgjarpc4kpqajrbfqdoi1hv0b75g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

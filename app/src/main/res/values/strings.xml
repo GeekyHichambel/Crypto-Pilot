@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Crypto Pilot</string>
+    <string name="welcome_to_cypto_pilot">Log In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="remember_email">Remember Email</string>
+    <string name="sign_in">Log In</string>
+    <string name="register">Register</string>
+    <string name="asset_size">35dp</string>
+    <string name="you_are_allowed_to_have_only_one_account_per_email">You are allowed to have only one account per email</string>
+    <string name="advise">Try to use:\n\n🔵 8 or more characters.\n\n🔵 UPPERCASE and lowercase letters.\n\n🔵 At least one digit.</string>
+    <string name="statement">Note: You are allowed to have only one account per email</string>
+    <string name="guide">Kindly check your inbox for verification email\nOnce you verify click the refresh button and you will be redirected to the home page.</string>
+    <string name="guidance">Please enter your email address associated with your Crypto Pilot account, in the field given below and we will send you a reset link immediately</string>
+    <string-array name="UserMenu">
+        <item></item>
+        <item>Log Out</item>
+    </string-array>
+
+    <string-array name="Quote_List">
+        <item>\"Invest in yourself, and the returns will follow.\"</item>
+        <item>\"Trading is not about being right all the time, it\'s about managing risk and controlling emotions.\"</item>
+        <item>\"Investing is a marathon, not a sprint. Pace yourself and focus on the long term.\"</item>
+        <item>\"The best investment you can make is in your own education.\"</item>
+        <item>\"Don\'t let fear or greed drive your investment decisions. Stay disciplined and stick to your plan.\"</item>
+        <item>\"In investing, as in life, patience is a virtue.\"</item>
+        <item>\"Successful investing requires research, discipline, and a long-term outlook.\"</item>
+        <item>\"The trade market is a device for transferring money from the impatient to the patient.\"</item>
+        <item>\"Investing is not a get-rich-quick scheme. It\'s a way to build wealth over time.\"</item>
+        <item>\"The key to successful trading is not predicting the future, but managing risk in the present.\"</item>
+        <item>\"Jab jeb mei ho Gandhi, Toh chori tumhari pyaar mei aandhi.\"</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_profile_pic"><u>New Profile Pic</u></string>
+    <string name="quote_for_the_bros"><u>Quote for the bros</u></string>
+</resources>

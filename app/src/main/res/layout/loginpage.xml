@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/SCREEN"
+    tools:context=".Loginpage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="420dp"
+        android:layout_height="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:onClick="backclick"
+        android:soundEffectsEnabled="false"
+        android:background="@drawable/custom_backbutton2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/edittopmessage"
+        android:layout_width="411dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/welcome_to_cypto_pilot"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editemailmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="200dp"
+        android:text="@string/email"
+        android:textAppearance="@style/CardView.Dark"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edittopmessage" />
+
+    <android.widget.EditText
+        android:id="@+id/editemailbox"
+        android:layout_width="256dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="78dp"
+        android:autofillHints=""
+        android:background="@drawable/custom_input2"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/cyan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/editemailmessage"
+        app:layout_constraintTop_toBottomOf="@id/editemailmessage"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/editpasswordmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="160dp"
+        android:text="@string/password"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/CardView.Dark"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editemailbox"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <android.widget.EditText
+        android:id="@+id/editpasswordbox"
+        android:layout_width="256dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="78dp"
+        android:autofillHints=""
+        android:background="@drawable/custom_input2"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/cyan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/editpasswordmessage"
+        app:layout_constraintTop_toBottomOf="@id/editpasswordmessage"
+        tools:ignore="LabelFor" />
+
+    <CheckBox
+        android:id="@+id/emailcheckbox"
+        android:layout_width="161dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="170dp"
+        android:buttonTint="@color/cyan"
+        android:checked="false"
+        android:soundEffectsEnabled="false"
+        android:text="@string/remember_email"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/editpasswordbox"
+        app:layout_constraintTop_toBottomOf="@id/editpasswordbox" />
+
+    <Button
+        android:id="@+id/editsigninbutton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="160dp"
+        android:background="@color/fadecyan"
+        android:enabled="false"
+        android:fontFamily="sans-serif-black"
+        android:soundEffectsEnabled="false"
+        android:text="@string/sign_in"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/emailcheckbox"
+        app:layout_constraintTop_toBottomOf="@id/emailcheckbox" />
+
+    <ImageView
+        android:id="@+id/googlesign"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/custom_input2"
+        android:src="@drawable/google"
+        android:soundEffectsEnabled="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailcheckbox" />
+
+    <TextView
+        android:id="@+id/forgot_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/cyan"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:text="Forgot Password?"
+        android:textColor="@color/cyan"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:soundEffectsEnabled="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editsigninbutton"
+        />
+
+    <TextView
+        android:id="@+id/create_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/cyan"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:textAlignment="center"
+        android:text="Don't have an account?"
+        android:textColor="@color/cyan"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:soundEffectsEnabled="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/forgot_text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

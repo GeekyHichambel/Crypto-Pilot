@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/SCREEN"
+    tools:context=".Forgot">
+
+    <android.widget.ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/restore"
+        android:background="@drawable/custom_button2_ni"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/sendbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:onClick="backclick"
+        android:soundEffectsEnabled="false"
+        android:background="@drawable/custom_backbutton2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/head_text"
+        android:layout_width="411dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:text="Password Recovery"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/guidance"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28sp"
+        android:padding="15sp"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:lineSpacingMultiplier="1.2"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_input2"
+        android:text="@string/guidance"
+        app:layout_constraintTop_toBottomOf="@id/head_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <android.widget.EditText
+        android:id="@+id/editemailbox"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="18dp"
+        android:hint="Your Email"
+        android:textColorHint="@color/fadedwhite"
+        android:background="@drawable/custom_input2"
+        android:ems="10"
+        android:textSize="18sp"
+        android:inputType="textEmailAddress"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:textColor="@color/cyan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guidance"
+        tools:ignore="LabelFor" />
+
+    <android.widget.TextView
+        android:id="@+id/sendbutton"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:background="@drawable/custom_button"
+        android:text="Send Email"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:soundEffectsEnabled="false"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editemailbox"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
